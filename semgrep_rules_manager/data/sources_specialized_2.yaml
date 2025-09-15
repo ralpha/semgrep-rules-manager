@@ -1,0 +1,82 @@
+federicodotta:
+  description: Federicodotta rules for pentest
+  repository_url: https://github.com/federicodotta/semgrep-rules
+  repository_branch: main
+  author: Federicodotta
+  license: MIT
+vmnguyen:
+  description: vmnguyen rules
+  repository_url: https://github.com/vmnguyen/semgrep-rules
+  repository_branch: master
+  author: vmnguyen
+  license:
+akabe1:
+  description: akabe1 rules
+  repository_url: https://github.com/akabe1/akabe1-semgrep-rules
+  repository_branch: main
+  author: Maurizio Siddu
+  license: GNU GPL 3.0+
+JuliaComputing:
+  description: Julia rules for Semgrep
+  repository_url: https://github.com/JuliaComputing/semgrep-rules-julia
+  repository_branch: main
+  author: JuliaComputing
+  license: LGPL-3.0
+  ignored:
+    # YAML files that are not rules.
+    - .github
+patched-codes:
+  description: permissively licensed Semgrep rules
+  repository_url: https://github.com/patched-codes/semgrep-rules
+  repository_branch: main
+  author: codelion
+  license: MIT
+  ignored:
+    # YAML files that are not rules.
+    - .github
+    - patched-codes-semgrep-rules.yml
+mindedsecurity:
+  description: Semgrep Rules for Android Application Security
+  repository_url: https://github.com/mindedsecurity/semgrep-rules-android-security
+  repository_branch: main
+  author: mindedsecurity
+  license: GPL-3.0
+  ignored:
+    # YAML files that are not rules.
+    - .github
+tuannq2299:
+  description: Semgrep Rule for .NET and Java
+  repository_url: https://github.com/tuannq2299/semgrep-rules
+  repository_branch: master
+  author: tuannq2299
+  license:
+  ignored:
+    # YAML files that are not rules.
+    - .github
+    - csharp/CA5385_1.yaml
+    - csharp/CA5382.yaml
+    - csharp/CA5389.yaml
+    - csharp/CA5383.yaml
+    - Java/Dos1.yaml
+Santandersecurityresearch:
+  description: Semgrep Rules for Detecting Magecart Skimmers and Obfuscated JavaScript
+  repository_url: https://github.com/Santandersecurityresearch/e-Skimming-Detection
+  repository_branch: main
+  author: Santandersecurityresearch
+  license:
+  ignored:
+    # YAML files that are not rules.
+    - .github
+imfht:
+  description: Custom Rules from imfht
+  repository_url: https://github.com/imfht/my-semgrep-rules
+  repository_branch: master
+  author: imfht
+  license:
+  ignored:
+    # YAML files that are not rules.
+    - .github
+    - .test_public_repos.yaml
+    - .pre-commit-config.yaml
+    - rule-benchmarks.yaml
+    - run-as-non-root.test.yaml
