@@ -1,0 +1,30 @@
+community:
+  description: Official repository of rules
+  repository_url: https://github.com/returntocorp/semgrep-rules
+  repository_branch: develop
+  ignored:
+    # YAML files that are not rules.
+    - stats
+    - template.yaml
+    - .pre-commit-config.yaml
+    - .github
+  author: Semgrep
+  license: LGPL 2.1
+gitlab:
+  description: Rules used in GitLab SAST
+  repository_url: https://gitlab.com/gitlab-org/security-products/sast-rules
+  repository_branch: main
+  ignored:
+    # YAML files that are not rules.
+    - mappings
+    - .gitlab-ci.yml
+    - ci
+    - qa
+    # Invalid rules
+    - java/scaffold.yml
+    - scala/scaffold.yml
+    - rules/lgpl-cc/yaml/spring/accesscontrol/rule-SpringActuatorFullyEnabled.yaml
+  author: GitLab
+  license: MIT
+  preprocessors:
+    - id-standardization

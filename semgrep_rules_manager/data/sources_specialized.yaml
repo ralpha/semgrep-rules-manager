@@ -1,0 +1,125 @@
+trailofbits:
+  description: Rules used in the audits, research, and projects of Trail of Bits
+  repository_url: https://github.com/trailofbits/semgrep-rules
+  repository_branch: main
+  ignored:
+    # YAML files that are not rules
+    - .github
+  author: Trail of Bits
+  license: AGPL-3.0
+"0xdea":
+  description: Custom rules written by Marco Ivaldi
+  repository_url: https://github.com/0xdea/semgrep-rules
+  repository_branch: main
+  author: Marco Ivaldi
+  license: MIT
+elttam:
+  description: Custom rules used in elttam
+  repository_url: https://github.com/elttam/semgrep-rules
+  repository_branch: main
+  ignored:
+    # YAML files that are not rules.
+    - perf-templates
+    - .pre-commit-config.yaml
+    - .github
+  author: elttam
+  license: MIT
+kondukto:
+  description: Custom rules used in Kondukto
+  repository_url: https://github.com/kondukto-io/semgrep-rules
+  repository_branch: master
+  author: Kondukto
+  license:
+dgryski:
+  description: Custom Go rules
+  repository_url: https://github.com/dgryski/semgrep-go
+  repository_branch: master
+  author: Damian Gryski
+  license: MIT
+dotta:
+  description: Rules developed while doing pentest on web and mobile apps
+  repository_url: https://github.com/federicodotta/semgrep-rules
+  repository_branch: main
+  author: Federico Dotta
+  license: MIT
+hashicorp:
+  description: HashiCorp-related rules
+  repository_url: https://github.com/hashicorp-forge/semgrep-rules
+  repository_branch: main
+  author: Hashicorp
+  license: MPL-2.0
+federicodotta:
+  description: Federicodotta rules for pentest
+  repository_url: https://github.com/federicodotta/semgrep-rules
+  repository_branch: main
+  author: Federicodotta
+  license: MIT
+vmnguyen:
+  description: vmnguyen rules
+  repository_url: https://github.com/vmnguyen/semgrep-rules
+  repository_branch: master
+  author: vmnguyen
+  license:
+akabe1:
+  description: akabe1 rules
+  repository_url: https://github.com/akabe1/akabe1-semgrep-rules
+  repository_branch: main
+  author: Maurizio Siddu
+  license: GNU GPL 3.0+
+JuliaComputing:
+  description: Julia rules for Semgrep
+  repository_url: https://github.com/JuliaComputing/semgrep-rules-julia
+  repository_branch: main
+  author: JuliaComputing
+  license: LGPL-3.0
+  ignored:
+    # YAML files that are not rules.
+    - .github
+patched-codes:
+  description: permissively licensed Semgrep rules
+  repository_url: https://github.com/patched-codes/semgrep-rules
+  repository_branch: main
+  author: codelion
+  license: MIT
+  ignored:
+    # YAML files that are not rules.
+    - .github
+    - patched-codes-semgrep-rules.yml
+mindedsecurity:
+  description: Semgrep Rules for Android Application Security
+  repository_url: https://github.com/mindedsecurity/semgrep-rules-android-security
+  repository_branch: main
+  author: mindedsecurity
+  license: GPL-3.0
+  ignored:
+    # YAML files that are not rules.
+    - .github
+tuannq2299:
+  description: Semgrep Rule for .NET and Java
+  repository_url: https://github.com/tuannq2299/semgrep-rules
+  repository_branch: master
+  author: tuannq2299
+  license:
+  ignored:
+    # YAML files that are not rules.
+    - .github
+Santandersecurityresearch:
+  description: Semgrep Rules for Detecting Magecart Skimmers and Obfuscated JavaScript
+  repository_url: https://github.com/Santandersecurityresearch/e-Skimming-Detection
+  repository_branch: main
+  author: Santandersecurityresearch
+  license:
+  ignored:
+    # YAML files that are not rules.
+    - .github
+imfht:
+  description: Custom Rules from imfht
+  repository_url: https://github.com/imfht/my-semgrep-rules
+  repository_branch: master
+  author: imfht
+  license:
+  ignored:
+    # YAML files that are not rules.
+    - .github
+    - .test_public_repos.yaml
+    - .pre-commit-config.yaml
