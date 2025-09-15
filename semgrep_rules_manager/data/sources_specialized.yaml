@@ -123,3 +123,5 @@ imfht:
     - .github
     - .test_public_repos.yaml
     - .pre-commit-config.yaml
+    - rule-benchmarks.yaml
+    - run-as-non-root.test.yaml
