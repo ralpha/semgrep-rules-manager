@@ -23,6 +23,7 @@ gitlab:
     # Invalid rules
     - java/scaffold.yml
     - scala/scaffold.yml
+    - rules/lgpl-cc/yaml/spring/accesscontrol/rule-SpringActuatorFullyEnabled.yaml
   author: GitLab
   license: MIT
   preprocessors:
