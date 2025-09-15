@@ -103,6 +103,7 @@ tuannq2299:
   ignored:
     # YAML files that are not rules.
     - .github
+    - csharp/CA5385_1.yaml
 Santandersecurityresearch:
   description: Semgrep Rules for Detecting Magecart Skimmers and Obfuscated JavaScript
   repository_url: https://github.com/Santandersecurityresearch/e-Skimming-Detection
